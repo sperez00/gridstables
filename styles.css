@@ -1,0 +1,32 @@
+/* CSS Document for table demonstration */
+
+table{
+border-collapse: collapse;
+width: 70%
+margin:auto;
+}
+
+td, th{
+border: 1px solid #000000;
+padding: 15px;
+}
+
+tr:nth-child(even){
+    background-color: #ff0000;
+}
+
+tr:nth-child(odd){
+    background-color: #ffffff;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.5em;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+body{
+    background-color: #5f6d5f;
+}
